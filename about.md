@@ -8,7 +8,7 @@ and financial forecasting using flask and python.......
 1) first of all
 create a virtual environment and install Flask using the following commands:
 python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+# On Windows, use `venv\Scripts\activate`
 pip install flask flask_sqlalchemy flask_bcrypt flask_login
 
 
