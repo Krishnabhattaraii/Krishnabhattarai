@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<h1>Welcome to your Dashboard</h1>
+<a href="{{ url_for('income') }}">Add Income</a>
+<a href="{{ url_for('expense') }}">Add Expense</a>
+{% endblock %}
